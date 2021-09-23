@@ -21,6 +21,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: white;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .card {
@@ -33,7 +36,9 @@ body {
           flex-direction: row-reverse;
   background: #1b1938;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1062px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .card-head {
@@ -41,16 +46,63 @@ body {
       flex-basis: 50%;
   background-image: url(../images/image-header-mobile.jpg);
   background-repeat: no-repeat;
-  background-color: rgba(135, 30, 200, 0.7);
+  background-color: rgba(133, 34, 195, 0.7);
   background-blend-mode: soft-light;
   background-size: cover;
-  min-height: 445px;
+  min-height: 426px;
 }
 
 .card-body {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  padding: 3rem;
+  padding: 4.4rem;
+}
+
+.card-body-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.6rem;
+}
+
+.card-body-title span {
+  color: #aa5cdb;
+}
+
+.card-body-text {
+  font-size: 0.85rem;
+  -webkit-font-kerning: normal;
+          font-kerning: normal;
+  line-height: 1.5rem;
+  padding-right: 3rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 4.5rem;
+}
+
+.card-body-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 3rem;
+}
+
+.card-body-section-stats h3 {
+  margin: 0px 0px 7px 0px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-body-section-stats p {
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-family: 'Lexend Deca', sans-serif;
+  letter-spacing: 1px;
 }
 
 @media (max-width: 768px) {

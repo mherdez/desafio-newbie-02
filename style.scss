@@ -19,6 +19,9 @@ body {
   justify-content: center;
   align-items: center;
   color: $white-main;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .card {
@@ -26,21 +29,67 @@ body {
   flex-direction: row-reverse;
   background: $dark-desaturated-blue;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1062px;
+  border-radius: 8px;
+  overflow: hidden;
+  // max-width: 1440px;
 
   &-head {
     flex-basis: 50%;
     background-image: url(../images/image-header-mobile.jpg);
     background-repeat: no-repeat;
-    background-color: hsla(277, 74%, 45%, .7);
+    background-color: hsla(277, 70%, 45%, .7);
     background-blend-mode: soft-light;
     background-size: cover;
-    min-height: 445px;
+    min-height: 426px;
   }
   
   &-body {
     flex-basis: 50%;
-    padding: 3rem;
+    padding: 4.4rem;
+
+    &-title {
+      font-size: 2.1rem;
+      font-weight: 700;
+      line-height: 2.5rem;
+      letter-spacing: 1px;
+      margin-bottom: 1.6rem;
+      
+      span {
+        color: $soft-violet-accent;
+      }
+    }
+    
+    &-text {
+      font-size: 0.85rem;
+      font-kerning: normal;
+      line-height: 1.5rem;
+      padding-right: 3rem;
+      color: $slightly-transparent-stats;
+      margin-bottom: 4.5rem;
+    }
+    
+    &-section {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 3rem;
+
+      &-stats {
+        h3 {
+          margin: 0px 0px 7px 0px;
+          font-size: 1.5rem;
+          font-weight: 700;
+        }
+        p {
+          margin: 0px;
+          color: $slightly-transparent-stats;
+          text-transform: uppercase;
+          font-size: .8rem;
+          font-family: 'Lexend Deca', sans-serif;
+          letter-spacing: 1px;
+        }
+      }
+    }
   }
 
 }
