@@ -33,18 +33,18 @@ body {
           flex-direction: row-reverse;
   background: #1b1938;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1440px;
 }
 
 .card-head {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  background-image: url(../images/image-header-desktop.jpg);
+  background-image: url(../images/image-header-mobile.jpg);
   background-repeat: no-repeat;
   background-color: rgba(135, 30, 200, 0.75);
   background-blend-mode: soft-light;
   background-size: cover;
-  min-height: 450px;
+  min-height: 445px;
 }
 
 .card-body {

@@ -26,16 +26,16 @@ body {
   flex-direction: row-reverse;
   background: $dark-desaturated-blue;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1440px;
 
   &-head {
     flex-basis: 50%;
-    background-image: url(../images/image-header-desktop.jpg);
+    background-image: url(../images/image-header-mobile.jpg);
     background-repeat: no-repeat;
     background-color: hsla(277, 74%, 45%, .75);
     background-blend-mode: soft-light;
     background-size: cover;
-    min-height: 450px;
+    min-height: 445px;
   }
   
   &-body {
