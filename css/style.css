@@ -41,7 +41,7 @@ body {
       flex-basis: 50%;
   background-image: url(../images/image-header-mobile.jpg);
   background-repeat: no-repeat;
-  background-color: rgba(135, 30, 200, 0.75);
+  background-color: rgba(135, 30, 200, 0.7);
   background-blend-mode: soft-light;
   background-size: cover;
   min-height: 445px;
